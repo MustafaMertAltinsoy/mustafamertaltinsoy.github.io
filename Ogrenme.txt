@@ -1,0 +1,83 @@
+//
+
+	<h1>Mustafa Mert Altýnsoy</h1>
+	<hr/> -- Araya Düz bir çizgi çeker
+	<h2>Mustafa Mert Altýnsoy</h2>
+	<h3>Mustafa Mert Altýnsoy</h3>
+	<h4>Mustafa Mert Altýnsoy</h4>
+	<h5>Mustafa Mert Altýnsoy</h5>
+	<h6>Mustafa Mert Altýnsoy</h6>
+
+//
+
+	<b>Kalýn Yazý</b>
+	<i>italik Yazý</i>
+	<br/> = alt Satýr
+	<big> büyültir </big> 
+	<small> küçültir </small>
+
+//
+
+	<ul>
+		<li>Liste Yapar</li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<ul type="square">
+		<li>Kare</li>
+		<li>Liste</li>
+		<li>Yapar</li>
+	</ul>
+
+	<ol>
+		<li>Sayýyla</li>
+		<li>Liste</li>
+		<li>Yapar</li>
+	</ol>
+
+	<ol type="a">
+		<li>harfle</li>
+		<li>Liste</li>
+		<li>Yapar</li>
+	</ol>
+
+	<ol type="I">
+		<li>Romen rakamlarýyla</li>
+		<li>Liste</li>
+		<li>Yapar</li>
+	</ol>
+//
+
+    <table width="40%" border="1" cellpadding="5">
+        <thead>
+            <tr>
+            <!--<th>Head Sütün 1</th>-->
+            <!--<th>Head Sütün 2</th>-->
+                <th colspan="3">Head Sütün 2</th><!--Üc sutunu birleþtirir-->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th align="center">Body Sütün 1</th>
+                <td>Body Sütün 2</td>
+                <td>Body Sütün 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Foot Sütün 1</th>
+                <td>Foot Sütün 2</td>
+                <td>Foot Sütün 3</td>
+            </tr>
+        </tfoot>
+    </table>
+//
+    <p><a href="files/TextF.txt" title="Dosya">Dosya Ýndir...</a></p>
+    <p><a href="mailto:mustafamert.altinsoy68@gmail.com" title="Mail adresim"> Mail Gönder</a></p>
+
+	en basa dönmek için
+	<a name="return"></a>
+
+    <p><a href="#return">En Baþa Dön</a> </p>
+//
