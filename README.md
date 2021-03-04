@@ -1,1 +1,0 @@
-# mustafamertaltinsoy.github.com
