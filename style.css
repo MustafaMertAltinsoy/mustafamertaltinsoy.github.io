@@ -7,8 +7,8 @@ body{
 .box{
     width: 450px;
     background: #6b5858;
+    border-radius: 25px;
     padding: 40px;
-    border-radius: 50px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
