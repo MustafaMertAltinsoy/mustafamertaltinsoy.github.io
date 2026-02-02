@@ -1,28 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mustafa Mert Altınsoy</title>
+    <title>Mert | Software Engineer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <meta name="google-site-verification" content="qNHuO0ubz5q_hp8Jxcy-p0fKl7dDCkSrE7KpaFCJo78" />
 </head>
 <body>
-    <div class="box">
-        <img src="resim.jpeg">
-        <h1>Mustafa Mert Altınsoy</h1>
-        <h5>App & Game Developer</h5>
-        <p>Kendi halinde takılan, uygulamalar yayınlayan bağımsız bir geliştirici <br> <br> İletişim : untygames@gmail.com</p>
-        
-        <ul>
-            <li><a title="Instagram Hesabım" href="https://www.instagram.com/mustafamertaltinsoy/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a title="Google Play Hesabım" href="https://play.google.com/store/apps/dev?id=5270132813642156719" target="_blank"><i class="fab fa-google-play"></i></a></li>           
-            <li><a title="Geri Bildirim" href="https://forms.gle/76wm7i7aeaGJtwpZ9" target="_blank"><i class="fas fa-comments"></i></a></li>
-            <!--<li><a href="https://forms.gle/yHC4a2MGNcUSiUUU9" target="_blank"><i class="fas fa-comments"></i></a></li>
-            <li><a href="privacypolicy.html" target="_blank"><img src="feedback.png" alt="Feedback" width="20" height="20"></a></li>-->
+
+    <canvas id="canvas1"></canvas>
+
+    <nav class="navbar">
+        <div class="logo">Mert<span>.dev</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#skills">Yetenekler</a></li>
+            <li><a href="#projects">Projeler</a></li>
+            <li><a href="#contact" class="btn-contact">İletişim</a></li>
         </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h3>Merhaba, ben Mert.</h3>
+            
+            <h1 class="static-title">SOFTWARE ENGINEER</h1>
+            
+            <p>Mobil dünyayı veri bilimiyle harmanlıyorum.</p>
+            
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary">Projelerimi Gör</a>
+                <a href="#contact" class="btn secondary">İletişim</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+    <div class="about-container">
+        <div class="about-img">
+            <i class="fas fa-user-astronaut"></i>
+        </div>
+        
+        <div class="about-text">
+            <h2 class="section-title" style="text-align: left; margin-bottom: 30px;">Hakkımda</h2>
+            <p>
+                Mobil uygulama geliştirme ve veri bilimi alanlarında uzmanlaşmış bir <strong>Yazılım Mühendisiyim.</strong>
+            </p>
+            <br>
+            <p>
+                3 yılı aşkın deneyimimle, <strong>Flutter</strong> kullanarak yüksek performanslı cross-platform uygulamalar geliştiriyor; <strong>Python</strong> ekosisteminde (Pandas, Scikit-learn) veri analizi yapıyor ve yapay zeka modelleri eğitiyorum.
+            </p>
+            <br>
+            <p>
+                Teknik derinliğimi, kullanıcı odaklı tasarımla birleştirerek toplamda <strong>25+ başarılı projeyi</strong> hayata geçirdim.
+            </p>
+            
+        
+        </div>
     </div>
+</section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Teknoloji Yığınım</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-google skill-icon"></i>
+                <h3>Flutter & Dart</h3>
+                <p>Cross-platform yüksek performanslı mobil uygulamalar.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python skill-icon"></i>
+                <h3>Python</h3>
+                <p>Veri analizi, Yapay Zeka ve Backend çözümleri.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-java skill-icon"></i>
+                <h3>Java</h3>
+                <p>Nesne yönelimli programlama ve güçlü mimariler.</p>
+            </div>
+             <div class="skill-card">
+                <i class="fas fa-database skill-icon"></i>
+                <h3>Data Science</h3>
+                <p>Veriden anlamlı içgörüler çıkarma ve görselleştirme.</p>
+            </div>
+        </div>
+    </section>
+
+    <<section id="projects" class="section">
+    <h2 class="section-title">Projelerim</h2>
+
+    <div class="projects-grid" style="margin-bottom: 30px;">
+        
+        <div class="project-card featured-card">
+            <div class="card-header" style="text-align:center; margin-bottom:20px;">
+                <i class="fas fa-mobile-alt" style="font-size: 3rem; color: var(--primary-color);"></i>
+            </div>
+            
+            <div class="card-body">
+                <h3 style="text-align:center; margin-bottom:10px; color:#fff;">Ders Takip 2</h3>
+                <p style="color:#e0e0e0; font-size:0.95rem; text-align:center; margin-bottom:20px;">
+                    Google Play ve App Store'da yayında! Öğrencilerin çalışma sürelerini, soru sayılarını ve deneme sonuçlarını analiz eden gelişmiş takip asistanı.
+                </p>
+
+                <div class="store-buttons" style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap;">
+                    
+                    <a href="https://play.google.com/store/apps/details?id=com.romerto.dersapp2" target="_blank" class="btn-store google">
+                        <i class="fab fa-google-play"></i> Google Play
+                    </a>
+
+                    <a href="https://apps.apple.com/app/idSENIN_APP_ID" target="_blank" class="btn-store apple">
+                        <i class="fab fa-app-store-ios"></i> App Store
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h3 style="color:#888; margin-bottom:20px; font-size:1.2rem;">Açık Kaynak Kodlar (GitHub)</h3>
+    <div class="projects-grid" id="github-projects">
+        <p style="text-align:center; width:100%; color:#888;">GitHub verileri çekiliyor...</p>
+    </div>
+
+</section>
+
+    <section id="contact" class="section contact-focus">
+        <div class="contact-header">
+            <h2 class="giant-title">Birlikte Kodlayalım</h2>
+            <p class="subtitle">Aklındaki projeyi hayata geçirmek için bir adım kaldı.</p>
+        </div>
+    
+        <div class="form-container">
+            <form action="mailto:mustafamertaltinsoyedu@gmail.com" method="post" enctype="text/plain">
+                <div class="input-row">
+                    <div class="floating-label">
+                        <input type="text" name="name" id="name" required placeholder=" ">
+                        <label for="name">Adınız Soyadınız</label>
+                    </div>
+                    <div class="floating-label">
+                        <input type="email" name="email" id="email" required placeholder=" ">
+                        <label for="email">E-posta Adresiniz</label>
+                    </div>
+                </div>
+                <div class="floating-label">
+                    <textarea name="message" id="message" rows="4" required placeholder=" "></textarea>
+                    <label for="message">Proje Detayları veya Mesajınız</label>
+                </div>
+                <button type="submit" class="btn-send">
+                    GÖNDER <i class="fas fa-long-arrow-alt-right"></i>
+                </button>
+            </form>
+            
+            <div class="direct-contact">
+                <p>Veya doğrudan mail atın: <a href="mailto:mustafamertaltinsoyedu@gmail.com" class="highlight-link">mustafamertaltinsoyedu@gmail.com</a></p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 Mert. Built with Flutter & Python Passion.</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
 </html>
